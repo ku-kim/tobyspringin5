@@ -12,7 +12,11 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
+    // Spring 5
+    implementation("org.springframework:spring-context:5.3.22")
+
     // Lombok
     implementation("org.projectlombok:lombok:1.18.24")
     annotationProcessor("org.projectlombok:lombok:1.18.24")
